@@ -1,0 +1,105 @@
+@media (min-width: 1000px){
+
+    .flex-columns-row-reverse{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 100%;
+        align-items: center;
+       
+       
+    }
+
+
+.mobile-menu{
+    display: none;
+}
+
+
+
+nav{
+    position: static;
+    width: auto;
+    background-color: var(--primary-color);
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+    box-shadow: none;
+    transition: none;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+
+nav ul li:nth-child(4) {
+    display: block;
+ 
+   
+}
+
+nav ul li:last-child {
+    background-color:hsl(0, 100%, 68%);
+    color: white;
+    font-size: 18px;
+    padding: .2em 1.1em;
+    border-radius: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.25s ease;
+    border: 1.5px solid #1b1d2a;
+}
+
+nav ul li:last-child:hover{
+    background-color: #f6f9fc;
+    color:  hsl(0, 100%, 68%);
+
+
+}
+
+.name{
+    font-size: 18px;
+}
+
+.showcase h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.showcase-text{
+    gap: 40px;
+}
+
+.showcase-button{
+    font-size: 21px;
+}
+
+.live-projects{
+    font-size: 21px;
+}
+
+.hero-item{
+    font-size: 30px;
+  
+}
+
+.meta-logo{
+    width: 45px;
+    height: 45px;  
+}
+
+
+.hero-img{
+    width: 50%;
+   
+}
+
+.laptop-img{
+    width:calc(51vw)
+}
+
+
+}
